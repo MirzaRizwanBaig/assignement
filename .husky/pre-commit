@@ -1,1 +1,4 @@
+echo "Running lint-staged before commit..."
 npm run lint:staged
+echo "Running prettier before commit..."
+npm run format:staged
