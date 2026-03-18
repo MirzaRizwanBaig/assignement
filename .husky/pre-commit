@@ -1,7 +1,2 @@
-#!/usr/bin/env sh
-
-echo "Running lint..."
 npm run lint
-
-echo "Running prettier..."
 npm run format
