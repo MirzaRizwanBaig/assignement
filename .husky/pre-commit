@@ -1,4 +1,7 @@
-echo "Running lint-staged before commit..."
+#!/usr/bin/env sh
+
+echo "Running lint..."
 npm run lint
-echo "Running prettier before commit..."
+
+echo "Running prettier..."
 npm run format
